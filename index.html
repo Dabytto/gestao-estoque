@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KTB6QR34");
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-17410076710"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-17410076710");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>360 ERP: Gestão de Estoque Inteligente</title>
+    <meta
+      name="description"
+      content="Controle, organize e otimize seu estoque em tempo real. Evite perdas, reduza custos e aumente a produtividade com uma gestão prática e totalmente online."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-KTB6QR34"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header>
+      <div class="container">
+        <div class="left">
+          <div class="div-left">
+            <img
+              src="assets/logo360erp.svg"
+              alt="Logo 360 ERP"
+              width="100px"
+              height="100px"
+            />
+            <h1>Simplifique a gestão do <br /><strong>seu estoque</strong></h1>
+            <div class="div-text-list">
+              <img
+                src="assets/figure-list.avif"
+                alt="Lista de beneficios do sistema ERP"
+                height="140px"
+              />
+              <div class="text-list">
+                <p>Controle de vendas</p>
+                <p>Atualização em tempo real</p>
+                <p>Extrato de estoque</p>
+                <p>Integração completa com o app 360 ERP</p>
+              </div>
+            </div>
+            <img
+              src="assets/mockups-img.avif"
+              alt="Empresario feliz utilizando o sistema 360 erp"
+              width="800px"
+              class="mockups-img"
+            />
+          </div>
+        </div>
+
+        <div class="right">
+          <h2>Teste grátis por 7 dias</h2>
+          <form class="form-erp" id="form-erp">
+            <label for="name">Nome *</label>
+            <input type="text" id="name" placeholder="Nome *" required />
+            <label for="email">Email *</label>
+            <input type="email" id="email" placeholder="Email *" required />
+            <label for="phone">Celular *</label>
+            <input type="tel" id="phone" placeholder="Celular *" required />
+            <label for="password">Senha *</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Senha *"
+              required
+            />
+            <label for="password">Confirme sua senha *</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              placeholder="Confirme sua senha *"
+              required
+            />
+
+            <label for="perfilId">Ramo *</label>
+            <select id="perfilId" required>
+              <option value="" disabled selected>Ramo *</option>
+              <option value="1">Assistência Técnica</option>
+              <option value="2">Atacadista / Distribuidora</option>
+              <option value="3">Barbearia</option>
+              <option value="4">Clínica Odontológica</option>
+              <option value="5">Construtora de Pequeno Porte</option>
+              <option value="6">Consultoria Empresarial</option>
+              <option value="7">Consultório Médico</option>
+              <option value="8">Dropshipping</option>
+              <option value="9">Estética e Cosméticos</option>
+              <option value="10">Farmácia</option>
+              <option value="11">Indústria de Plásticos</option>
+              <option value="12">Indústria de Produtos de Limpeza</option>
+              <option value="13">Indústria Têxtil / Confecção</option>
+              <option value="14">Instalações Elétricas / Hidráulicas</option>
+              <option value="15">Lanchonete</option>
+              <option value="16">Loja de Autopeças</option>
+              <option value="17">Loja de Informática</option>
+              <option value="18">Loja de Materiais de Construção</option>
+              <option value="19">Loja Virtual de Eletrônicos</option>
+              <option value="20">Loja Virtual de Roupas</option>
+              <option value="21">Marketplace de Produtos Artesanais</option>
+              <option value="22">Oficina Mecânica</option>
+              <option value="23">Padaria / Confeitaria</option>
+              <option value="24">Pequena Indústria de Alimentos</option>
+              <option value="25">Prestação de Serviços Gerais</option>
+              <option value="26">
+                Ramos de Atividade (principais para cada segmento)
+              </option>
+              <option value="27">Reformas e Manutenção</option>
+              <option value="28">Restaurante</option>
+              <option value="29">Salão de Beleza</option>
+              <option value="30">Serviços de Marketing / Publicidade</option>
+              <option value="31">Varejista de Produtos Diversos</option>
+            </select>
+
+            <label for="segmentId">Segmento *</label>
+            <select id="segmentId" required>
+              <option value="" disabled selected>Segmento *</option>
+              <option value="1">Agropecuária</option>
+              <option value="2">Alimentação e Bebidas</option>
+              <option value="3">Autopeças e Oficinas</option>
+              <option value="4">Beleza e Estética</option>
+              <option value="5">Comércio</option>
+              <option value="6">Comunicação e Marketing</option>
+              <option value="7">Construção Civil</option>
+              <option value="8">Educação</option>
+              <option value="9">Eventos e Entretenimento</option>
+              <option value="10">Financeiro / Contábil</option>
+              <option value="11">Imobiliário</option>
+              <option value="12">Indústria</option>
+              <option value="13">Logística e Transporte</option>
+              <option value="14">Moda e Vestuário</option>
+              <option value="15">Saúde</option>
+              <option value="16">Serviços</option>
+              <option value="17">Tecnologia</option>
+              <option value="18">Varejo Online (e-commerce)</option>
+            </select>
+
+            <fieldset class="checkbox-group">
+              <legend>Tenho interesse em:</legend>
+              <label
+                ><input type="checkbox" value="Controle financeiro" /> Controle
+                financeiro</label
+              >
+              <label
+                ><input type="checkbox" value="Contabilidade Digital" />
+                Contabilidade Digital</label
+              >
+              <!-- <label
+                ><input type="checkbox" value="Controle de estoque" /> Controle
+                de estoque</label
+              > -->
+              <label
+                ><input type="checkbox" value="Emissão de notas fiscais" />
+                Emissão de notas fiscais</label
+              >
+              <label
+                ><input type="checkbox" value="Gestão de vendas e clientes" />
+                Gestão de vendas e clientes</label
+              >
+              <label
+                ><input type="checkbox" value="Integração com e-commerce" />
+                Integração com e-commerce</label
+              >
+              <label
+                ><input type="checkbox" value="Relatórios e análises" />
+                Relatórios e análises</label
+              >
+            </fieldset>
+            <div
+              id="errorMessageContainer"
+              style="display: none; color: red; margin-bottom: 10px"
+            ></div>
+
+            <button type="submit" id="submitBtn">Iniciar teste gratuito</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <section class="risk-section">
+      <div class="risk-main-div fade-section">
+        <span>Você controla seu estoque por planilha ou caderno?</span>
+        <h1 class="h1-red">Sua empresa está <strong>em risco</strong></h1>
+        <p>
+          Lançamentos feitos em planilhas ou cadernos estão sujeitos a erros de
+          digitação, contagens incorretas,<br />
+          confusão entre unidades e diversos fatores que podem comprometer a
+          saúde do seu negócio.
+        </p>
+        <h2>Livre-se dos papéis e assuma o controle da sua operação!</h2>
+        <div>
+          <img
+            src="assets/risk-img.avif"
+            alt="Imagem de risco"
+            width="400px"
+            height="400px"
+            class="risk-img"
+          />
+        </div>
+        <div class="red-text">
+          <p>
+            Quantas vendas você já perdeu por não saber o que tem no estoque?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="solutions-section">
+      <div class="solutions-section-main fade-section">
+        <h1 class="h1-green">O 360 ERP resolve tudo isso!</h1>
+        <p>
+          Foque no crescimento do seu negócio, enquanto o 360 ERP cuida do
+          estoque, da organização e da segurança das suas<br />
+          informações, sem erros, sem bagunça, sem retrabalho.
+        </p>
+        <div class="solutions-cards-div">
+          <div class="card fade-section">
+            <img
+              src="assets/icon-desktop.svg"
+              alt="Icone de computador do sistema 360 erp"
+              class="icon-card"
+              width="70px"
+              height="70px"
+            />
+            <p>Atualização automatica a <br />cada venda</p>
+          </div>
+          <div class="card fade-section">
+            <img
+              src="assets/icon-detail.svg"
+              alt="Icone de detalhes do sistema 360 erp"
+              class="icon-card"
+            />
+            <p>Extrato detalhado do que <br />entra e sai</p>
+          </div>
+          <div class="card fade-section">
+            <img
+              src="assets/icon-management.svg"
+              alt="igone de gestão do sistema 360 erp"
+              class="icon-card"
+            />
+            <p>Gestão de vários estoques <br />e locais</p>
+          </div>
+        </div>
+        <div class="solutions-cards-div-2">
+          <div class="card fade-section">
+            <img
+              src="assets/icon-report.svg"
+              alt="Icone de relatórios do sistema 360 erp"
+              class="icon-card"
+            />
+            <p>Relatórios claros para <br />comprar certo e vender melhor</p>
+          </div>
+          <div class="card fade-section">
+            <img
+              src="assets/icon-sale.svg"
+              alt="Icone de venda do sistema 360 erp"
+              class="icon-card"
+            />
+            <p>
+              Controle de vendas integrado<br />
+              ao estoque
+            </p>
+          </div>
+        </div>
+        <button class="btn-green" onclick="scrollToForm()">
+          Quero organizar meu estoque
+        </button>
+      </div>
+    </section>
+    <section class="integration-section">
+      <div class="integration-section-main">
+        <div class="img-left">
+          <img
+            src="assets/Mockup_app.png"
+            alt="Sistema 360 erp compativel com qualquer dispositivo movel!"
+            height="100%"
+            width="620px"
+            class="img-mockup-app fade-section"
+          />
+        </div>
+        <div class="text-right fade-section">
+          <h1 class="h1-white">
+            Integração completa <br /><strong>com o App</strong>
+          </h1>
+          <span class="span-white"
+            >Seu estoque atualizado em <br />
+            tempo real, direto no celular</span
+          >
+          <p class="p-white">
+            <strong>
+              Faça o download agora mesmo e transforme a sua gestão!
+            </strong>
+          </p>
+          <div class="store-buttons">
+            <a
+              href="https://play.google.com/store/apps/details?id=br.com.x360smarttrade&hl=pt-PT&pli=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="assets/googlePlay.avif"
+                alt="Google Play Store"
+                width="180px"
+                height="60px"
+                class="google-play"
+              />
+            </a>
+            <a
+              href="https://apps.apple.com/br/app/360-erp/id1540511289?platform=iphone"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="assets/appStore.avif"
+                alt="Apple App Store"
+                width="180px"
+                height="60px"
+                class="app-playstore"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="best-support-section-main">
+        <div class="best-support-text fade-section">
+          <span class="span-white"
+            >O melhor atendimento que você vai encontrar</span
+          >
+          <h1 class="h1-white">Não basta ter um<br />sistema completo</h1>
+          <p>
+            Além da tecnologia, você conta com treinamento <br />
+            completo e suporte humano <strong>GRATUITO</strong>, pronto para
+            <br />
+            te ajudar a usar nosso sistema com a máxima eficiência.
+          </p>
+          <div class="button-div">
+            <button class="btn-green" onclick="scrollToForm()">
+              Testar por 7 dias grátis
+            </button>
+          </div>
+        </div>
+        <div class="img-right">
+          <img
+            src="assets/imagens-support.png"
+            alt="Suporte 360 erp"
+            height="100%"
+            width="600px"
+            class="img-support fade-section"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="plans-section">
+      <div class="plans-section-main">
+        <div class="plans-title-and-subtitle">
+          <h2 class="h2-subtitle">Seja qual for o <strong>desafio</strong></h2>
+          <h1>O 360 ERP tem um plano ideal para você</h1>
+        </div>
+
+        <div class="button-toggle">
+          <button class="btn-toggle active" id="btn-monthly">Mensal</button>
+          <button class="btn-toggle" id="btn-yearly">Anual -15%</button>
+        </div>
+
+        <!-- Planos Mensais -->
+        <div class="plans-wrapper">
+          <div id="plans-monthly" class="plans-container">
+            <!-- PLUS 360 -->
+            <div class="plan-card">
+              <h3>PLUS 360</h3>
+              <span class="span-featured"
+                >Perfeito para <strong>pequenas empresas</strong></span
+              >
+              <p class="price">R$ 69,90 <span>/mês</span></p>
+              <div class="div-li">
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />
+                  1 usuário
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" /><span
+                    >Agenda de compromissos</span
+                  >
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Frente de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Força de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Gestão
+                  comercial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Controle
+                  financeiro integrado
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Geração de
+                  boletos
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Mobilidade
+                  com sincronização offline
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Relatórios
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Gestão de
+                  cadastro comercial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Tabela de
+                  preços
+                </div>
+              </div>
+              <button class="btn-primary" onclick="scrollToForm()">
+                Teste grátis!
+              </button>
+            </div>
+
+            <!-- PRO 360 -->
+            <div class="plan-card featured">
+              <h3>PRO 360</h3>
+              <span class="span-featured"
+                >Perfeito para <strong>médias empresas</strong></span
+              >
+              <p class="price">R$ 119,90 <span>/mês</span></p>
+              <div class="div-li">
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />3 usuários
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />100 emissões
+                  fiscais
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Agenda de
+                  compromissos
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Força de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Gestão
+                  comercial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Controle
+                  financeiro integrado
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Geração de
+                  boletos
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Mobilidade
+                  com sincronização offline
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Relatórios
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Gestão de
+                  cadastros comercial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Tabela de
+                  preços
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Metas de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Ordem de
+                  serviço
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Controle de
+                  estoque
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Relatórios de
+                  entrega
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Faturamento
+                  por produto
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />DRE gerencial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Comissão de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Emissão de
+                  documentos fiscais (NF-e, NFS-e e NFC-e)
+                </div>
+              </div>
+              <button class="btn-primary" onclick="scrollToForm()">
+                Teste grátis!
+              </button>
+            </div>
+
+            <!-- PREMIUM 360 -->
+            <div class="plan-card">
+              <h3>PREMIUM 360</h3>
+              <span class="span-featured"
+                >Perfeito para <strong>grandes empresas</strong></span
+              >
+              <p class="price">R$ 159,90 <span>/mês</span></p>
+              <div class="div-li">
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />5 usuários
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />200 ambientes
+                  fiscais
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Agenda de
+                  compromissos
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Força de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Gestão
+                  comercial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Controle
+                  financeiro integrado
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Geração de
+                  boletos
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Mobilidade
+                  com sincronização offline
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Relatórios
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Gestão de
+                  cadastros comercial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Tabela de
+                  preços
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Meta de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Ordem de
+                  serviço
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Controle de
+                  estoque
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Relatórios de
+                  entrega
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Faturamento
+                  por produto
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />DRE gerencial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Comissão de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Emissão de
+                  documentos fiscais (NF-e, NFS-e, MDF-e, NFC-e)
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Integração
+                  bancária
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Fluxo de
+                  caixa
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Curva ABC de
+                  clientes, produtos e vendedores
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Emissão de
+                  etiquetas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Inventário de
+                  estoque
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Importação de
+                  XML
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Controle de
+                  abastecimento
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Identificação
+                  de top clientes
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Emissao de
+                  MDF-e
+                </div>
+              </div>
+              <button class="btn-primary" onclick="scrollToForm()">
+                Teste grátis!
+              </button>
+            </div>
+
+            <!-- PERSONALIZADO -->
+            <div class="plan-card">
+              <h3>PERSONALIZADO</h3>
+              <span class="span-featured"
+                >Plano feito <strong>sob medida</strong></span
+              >
+              <p class="price">CONSULTE</p>
+              <button class="btn-primary" onclick="scrollToForm()">
+                Teste grátis!
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="plans-wrapper">
+          <div id="plans-yearly" class="plans-container hidden">
+            <!-- PLUS 360 -->
+            <div class="plan-card">
+              <h3>PLUS 360</h3>
+              <span class="span-featured"
+                >Perfeito para <strong>pequenas empresas</strong></span
+              >
+              <p class="price">R$ 59,90 <span>/mês</span></p>
+              <div class="div-li">
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />
+                  <p>1 usuário</p>
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" /><span
+                    >Agenda de compromissos</span
+                  >
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Frente de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Força de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Gestão
+                  comercial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Controle
+                  financeiro integrado
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Geração de
+                  boletos
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Mobilidade
+                  com sincronização offline
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Relatórios
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Gestão de
+                  cadastro comercial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Tabela de
+                  preços
+                </div>
+              </div>
+              <button class="btn-primary" onclick="scrollToForm()">
+                Teste grátis!
+              </button>
+            </div>
+
+            <!-- PRO 360 -->
+            <div class="plan-card featured">
+              <h3>PRO 360</h3>
+              <span class="span-featured"
+                >Perfeito para <strong>médias empresas</strong></span
+              >
+              <p class="price">R$ 101,91 <span>/mês</span></p>
+              <div class="div-li">
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />3 usuários
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />100 emissões
+                  fiscais
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Agenda de
+                  compromissos
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Força de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Gestão
+                  comercial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Controle
+                  financeiro integrado
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Geração de
+                  boletos
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Mobilidade
+                  com sincronização offline
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Relatórios
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Gestão de
+                  cadastros comercial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Tabela de
+                  preços
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Metas de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Ordem de
+                  serviço
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Controle de
+                  estoque
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Relatórios de
+                  entrega
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Faturamento
+                  por produto
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />DRE gerencial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Comissão de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-white.svg" alt="check" />Emissão de
+                  documentos fiscais (NF-e, NFS-e e NFC-e)
+                </div>
+              </div>
+              <button class="btn-primary" onclick="scrollToForm()">
+                Teste grátis!
+              </button>
+            </div>
+
+            <!-- PREMIUM 360 -->
+            <div class="plan-card">
+              <h3>PREMIUM 360</h3>
+              <span class="span-featured"
+                >Perfeito para <strong>grandes empresas</strong></span
+              >
+              <p class="price">R$ 135,91 <span>/mês</span></p>
+              <div class="div-li">
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />5 usuários
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />200 ambientes
+                  fiscais
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Agenda de
+                  compromissos
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Força de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Gestão
+                  comercial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Controle
+                  financeiro integrado
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Geração de
+                  boletos
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Mobilidade
+                  com sincronização offline
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Relatórios
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Gestão de
+                  cadastros comercial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Tabela de
+                  preços
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Meta de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Ordem de
+                  serviço
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Controle de
+                  estoque
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Relatórios de
+                  entrega
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Faturamento
+                  por produto
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />DRE gerencial
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Comissão de
+                  vendas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Emissão de
+                  documentos fiscais (NF-e, NFS-e, MDF-e, NFC-e)
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Integração
+                  bancária
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Fluxo de
+                  caixa
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Curva ABC de
+                  clientes, produtos e vendedores
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Emissão de
+                  etiquetas
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Inventário de
+                  estoque
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Importação de
+                  XML
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Controle de
+                  abastecimento
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Identificação
+                  de top clientes
+                </div>
+                <div class="div-li-center">
+                  <img src="assets/checkk-black.svg" alt="check" />Emissao de
+                  MDF-e
+                </div>
+              </div>
+              <button class="btn-primary" onclick="scrollToForm()">
+                Teste grátis!
+              </button>
+            </div>
+
+            <!-- PERSONALIZADO -->
+            <div class="plan-card">
+              <h3>PERSONALIZADO</h3>
+              <span class="span-featured"
+                >Plano feito <strong>sob medida</strong></span
+              >
+              <p class="price">CONSULTE</p>
+              <button class="btn-primary" onclick="scrollToForm()">
+                Teste grátis!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contract-section">
+        <div class="contract-section-main fade-section">
+          <h2>Não tem certeza de qual plano contratar?</h2>
+          <a
+            class="btn-green"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://whatsform.com/xazqjx"
+          >
+            Fale com um de nossos consultores
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-section">
+      <div class="footer-text">
+        <div class="text-div">
+          <h2>Endereço</h2>
+          <p>Edifício Montreal Executive Center</p>
+          <p>Rua Marechal Floriano Peixoto</p>
+          <p>Centro, Curitiba - PR</p>
+          <p>CEP: 80010-130</p>
+        </div>
+        <div class="text-div">
+          <h2>Telefone</h2>
+          <p>(41) 99979-6564</p>
+          <p>(11) 95485-1128</p>
+        </div>
+        <div class="text-div">
+          <h2>Email</h2>
+          <p>contato@360erp.com.br</p>
+        </div>
+        <div class="social-media">
+          <a
+            href="https://www.instagram.com/360.erp/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="social-media-img"
+              src="assets/instagram-logo.svg"
+              alt="logo instagram"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/sistema360erp?_rdc=2&_rdr#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="social-media-img"
+              src="assets/facebook-logo.svg"
+              alt="logo instagram"
+            />
+          </a>
+          <a
+            href="https://br.linkedin.com/company/360erp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="social-media-img"
+              src="assets/linkedin-logo.svg"
+              alt="logo instagram"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    const btnMonthly = document.getElementById("btn-monthly");
+    const btnYearly = document.getElementById("btn-yearly");
+    const plansMonthly = document.getElementById("plans-monthly");
+    const plansYearly = document.getElementById("plans-yearly");
+
+    function showPlans(containerToShow, containerToHide) {
+      // Esconde o container antigo
+      containerToHide.classList.remove("active");
+      containerToHide
+        .querySelectorAll(".plan-card")
+        .forEach((c) => c.classList.remove("show"));
+
+      // Mostra o novo container
+      containerToShow.classList.add("active");
+
+      // Aplica animação card a card
+      containerToShow.querySelectorAll(".plan-card").forEach((card, i) => {
+        setTimeout(() => card.classList.add("show"), i * 150);
+      });
+    }
+
+    // Estado inicial
+    btnMonthly.classList.add("active");
+    plansMonthly.classList.add("active");
+    plansMonthly.querySelectorAll(".plan-card").forEach((card, i) => {
+      setTimeout(() => card.classList.add("show"), i * 150);
+    });
+
+    // Eventos
+    btnMonthly.addEventListener("click", () => {
+      btnMonthly.classList.add("active");
+      btnYearly.classList.remove("active");
+      showPlans(plansMonthly, plansYearly);
+    });
+
+    btnYearly.addEventListener("click", () => {
+      btnYearly.classList.add("active");
+      btnMonthly.classList.remove("active");
+      showPlans(plansYearly, plansMonthly);
+    });
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const form = document.getElementById("form-erp");
+      const phoneInput = document.getElementById("phone");
+      const submitBtn = document.getElementById("submitBtn");
+
+      function getApiUrl() {
+        const host = window.location.host;
+        if (host === "lp.360erp.com.br") {
+          return "https://api-prd.360smarttrade.com.br/";
+        }
+        return "https://api-dev.360erp.com.br/";
+      }
+
+      phoneInput.addEventListener("input", () => {
+        let value = phoneInput.value.replace(/\D/g, "").slice(0, 11);
+        if (value.length > 6) {
+          value = value.replace(/^(\d{2})(\d{5})(\d{0,4}).*/, "($1) $2-$3");
+        } else if (value.length > 2) {
+          value = value.replace(/^(\d{2})(\d{0,5})/, "($1) $2");
+        } else {
+          value = value.replace(/^(\d*)/, "($1");
+        }
+        phoneInput.value = value;
+      });
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Enviando...";
+
+        const getValue = (id) => document.getElementById(id).value.trim();
+        const checkboxes = [
+          ...document.querySelectorAll(".checkbox-group input:checked"),
+        ];
+        const interests = checkboxes.map((cb) => cb.value).join("; ");
+
+        const name = getValue("name");
+        const email = getValue("email");
+        const phone = getValue("phone");
+        const password = getValue("password");
+        const confirmPassword = getValue("confirmPassword");
+        const perfilId = document.getElementById("perfilId").value.toString();
+        const segmentId = document.getElementById("segmentId").value.toString();
+
+        if (!name || !email || !phone || !password || !confirmPassword) {
+          showErrorMessage("Por favor, preencha todos os campos obrigatórios.");
+          resetSubmitButton();
+          return;
+        }
+
+        if (password !== confirmPassword) {
+          showErrorMessage("As senhas não coincidem.");
+          resetSubmitButton();
+          return;
+        }
+
+        let utm = window.localStorage.getItem("url_utm");
+
+        const payload = {
+          name,
+          email,
+          phone,
+          perfilId,
+          segmentId,
+          password,
+          interestIn: interests,
+          lp: "LP_gestao_de_estoque",
+          utm: utm || window.location.href,
+        };
+
+        try {
+          const apiBaseUrl = getApiUrl();
+          const response = await fetch(
+            apiBaseUrl + "authentication/v6/create-from-external-form",
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(payload),
+            }
+          );
+
+          const result = await response.json();
+
+          if (!response.ok) {
+            throw new Error(
+              result?.errors?.join("\n") || "Erro ao processar o cadastro."
+            );
+          }
+
+          if (result.success && result.data) {
+            window.open(result.data, "_blank");
+            resetSubmitButton();
+            form.reset();
+          } else {
+            alert("Cadastro efetuado, mas sem redirecionamento disponível.");
+            resetSubmitButton();
+            form.reset();
+          }
+        } catch (err) {
+          showErrorMessage("Erro no envio: " + err.message);
+          resetSubmitButton();
+          form.reset();
+        }
+      });
+
+      function showErrorMessage(message) {
+        const errorMessageContainer = document.getElementById(
+          "errorMessageContainer"
+        );
+        errorMessageContainer.textContent = message;
+        errorMessageContainer.style.display = "block";
+      }
+
+      function resetSubmitButton() {
+        submitBtn.disabled = false;
+        submitBtn.textContent = "Iniciar teste gratuito";
+      }
+
+      window.onclick = (event) => {
+        const errorMessageContainer = document.getElementById(
+          "errorMessageContainer"
+        );
+        if (event.target !== errorMessageContainer) {
+          errorMessageContainer.style.display = "none";
+        }
+      };
+    });
+  </script>
+
+  <script>
+    function saveURL() {
+      const url = window.location.href;
+      window.localStorage.setItem("url_utm", url);
+    }
+
+    window.onload = saveURL;
+
+    const telefoneInput = document.getElementById("phone");
+
+    telefoneInput.addEventListener("input", function (e) {
+      let input = e.target.value.replace(/\D/g, "");
+
+      if (input.length > 11) input = input.slice(0, 11);
+
+      if (input.length <= 10) {
+        input = input.replace(/(\d{2})(\d{4})(\d{0,4})/, "($1) $2-$3");
+      } else {
+        input = input.replace(/(\d{2})(\d{5})(\d{0,4})/, "($1) $2-$3");
+      }
+
+      e.target.value = input;
+    });
+  </script>
+  <script>
+    function scrollToForm() {
+      const formElement = document.getElementById("form-erp");
+      if (formElement) {
+        formElement.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const sections = document.querySelectorAll(".fade-section");
+
+      const observer = new IntersectionObserver(
+        (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("show");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.2 }
+      );
+
+      sections.forEach((section) => {
+        observer.observe(section);
+      });
+    });
+  </script>
+</html>
